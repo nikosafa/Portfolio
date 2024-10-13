@@ -19,15 +19,16 @@ header {
     position: relative;
 }
 
+/* Light mode stil for header */
 header.light-mode {
-    background-color: #f0f0f0; /* Light mode */
-    color: #000000; /* Dark text color */
+    background-color: #f0f0f0;
+    color: #000000;
 }
 
-/* Dark mode styles for header */
+/* Dark mode stil for header */
 header {
-    background-color: #aec593; /* Dark background for dark mode */
-    color: #f0f0f0; /* Light text color for dark mode */
+    background-color: #aec593;
+    color: #f0f0f0;
 }
 
 .name_link a {
@@ -107,7 +108,7 @@ header {
     padding: 10px 20px;
     border: none;
     border-radius: 50px;
-    background-color: #52000f; /* Dark mode color */
+    background-color: #52000f;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -120,16 +121,16 @@ header {
     border: 1px solid #52000f;
 }
 
-/* Light mode styles for the toggle button */
+/* Light mode stil til toggle knappen */
 body.light-mode #lightModeToggle {
     background-color: #3b513f;
     color: white;
 }
 
 body.light-mode #lightModeToggle:hover {
-    background-color: transparent; /* Transparent on hover */
-    color: #3b513f; /* Text color matches the button color */
-    border: 1px solid #3b513f; /* Border matches the button color */
+    background-color: transparent;
+    color: #3b513f;
+    border: 1px solid #3b513f;
 }
 
 .home {
